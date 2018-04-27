@@ -1,0 +1,18 @@
+{
+  "name": "graphql-query",
+  "version": "1.0.0",
+  "description": "simple client for graphQL APIs",
+  "main": "./lib",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["graphQl", "client"],
+  "author": "Karl Turner",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
