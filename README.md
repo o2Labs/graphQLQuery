@@ -8,9 +8,7 @@
 
 ## Examples
 
-As in examples folder
-
-## As a query object based request
+### As a query object based request (./examples/example2.js)
 
 ```
 const endpoint = "https://api.graphloc.com/graphql";
@@ -32,13 +30,13 @@ const data = {
   }
 };
 
-graphQLQuery.client
+apiClient
   .request(data)
   .then(response => console.log(JSON.stringify(response)))
   .catch(err => console.log(err));
 ```
 
-## As a query string based request
+### As a query string based request (./examples/example1.js)
 
 ```
 const endpoint = "https://api.graphloc.com/graphql";
